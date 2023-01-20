@@ -1,0 +1,236 @@
+{
+	"name": "Energy",
+	"attributes": [
+		{
+			"name": "language",
+			"type": "string"
+		}
+	],
+	"decisions": [
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "c"
+					}
+				]
+			},
+			"event": {
+				"type": "1.00",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "rust"
+					}
+				]
+			},
+			"event": {
+				"type": "1.03",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "c++"
+					}
+				]
+			},
+			"event": {
+				"type": "1.34",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "java"
+					}
+				]
+			},
+			"event": {
+				"type": "1.98",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "fortran"
+					}
+				]
+			},
+			"event": {
+				"type": "2.52",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "swift"
+					}
+				]
+			},
+			"event": {
+				"type": "2.79",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "c#"
+					}
+				]
+			},
+			"event": {
+				"type": "3.14",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "go"
+					}
+				]
+			},
+			"event": {
+				"type": "3.23",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "dart"
+					}
+				]
+			},
+			"event": {
+				"type": "3.83",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "javascript"
+					}
+				]
+			},
+			"event": {
+				"type": "4.45",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "typescript"
+					}
+				]
+			},
+			"event": {
+				"type": "21.50",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "php"
+					}
+				]
+			},
+			"event": {
+				"type": "29.30",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "ruby"
+					}
+				]
+			},
+			"event": {
+				"type": "69.91",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "python"
+					}
+				]
+			},
+			"event": {
+				"type": "75.88",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "perl"
+					}
+				]
+			},
+			"event": {
+				"type": "79.58",
+				"params": {}
+			}
+		}
+	]
+}	

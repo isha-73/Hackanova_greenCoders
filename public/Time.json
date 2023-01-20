@@ -1,0 +1,221 @@
+{
+	"name": "Time",
+	"attributes": [
+		{
+			"name": "language",
+			"type": "string"
+		}
+	],
+	"decisions": [
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "c"
+					}
+				]
+			},
+			"event": {
+				"type": "1.00",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "rust"
+					}
+				]
+			},
+			"event": {
+				"type": "1.04",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "c++"
+					}
+				]
+			},
+			"event": {
+				"type": "1.56",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "java"
+					}
+				]
+			},
+			"event": {
+				"type": "1.89",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "fortran"
+					}
+				]
+			},
+			"event": {
+				"type": "4.20",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "swift"
+					}
+				]
+			},
+			"event": {
+				"type": "4.20",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "c#"
+					}
+				]
+			},
+			"event": {
+				"type": "3.14",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "go"
+					}
+				]
+			},
+			"event": {
+				"type": "2.83",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "dart"
+					}
+				]
+			},
+			"event": {
+				"type": "6.67",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "javascript"
+					}
+				]
+			},
+			"event": {
+				"type": "6.52",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "typescript"
+					}
+				]
+			},
+			"event": {
+				"type": "46.20",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "ruby"
+					}
+				]
+			},
+			"event": {
+				"type": "59.34",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "python"
+					}
+				]
+			},
+			"event": {
+				"type": "71.90",
+				"params": {}
+			}
+		},
+		{
+			"conditions": {
+				"all": [
+					{
+						"fact": "language",
+						"operator": "equal",
+						"value": "perl"
+					}
+				]
+			},
+			"event": {
+				"type": "65.69",
+				"params": {}
+			}
+		}
+	]
+}
